@@ -1,0 +1,35 @@
+header {
+    background: rgb(10, 10, 86);
+}
+
+
+.basic-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.title, h1 {
+    color: white;
+}
+
+.contact > a {
+    text-decoration: none;
+    color: rgb(189, 192, 195);
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.about {
+    color: rgb(189, 192, 195);    
+    width: 300px;
+}
+
+img {
+    border-radius: 10px;
+}
