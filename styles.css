@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header {
     background: rgb(10, 10, 86);
 }
@@ -8,6 +12,7 @@ header {
     justify-content: space-between;
     padding: 30px;
 }
+
 
 .title, h1 {
     color: white;
@@ -21,6 +26,7 @@ header {
 .description {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 30px;
     gap: 30px;
 }
@@ -30,6 +36,73 @@ header {
     width: 300px;
 }
 
-img {
+.photo > img {
     border-radius: 10px;
+    width: 10rem;
+}
+
+.main {
+    background: white;
+    text-align: center;
+}
+
+.title2 {
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.skills {
+    display: flex;
+    color: rgb(34, 35, 35);
+}
+
+.skills img {
+    height: 100px;
+}
+
+
+.quote {
+    background: rgb(241, 236, 236);
+}
+
+.container-quote {
+    width: 50vw;
+    padding: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title3 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.quote-content {
+    font-style: italic;
+    font-size: 3rem;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.author {
+    font-weight: 900;
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: rgb(10, 10, 86);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding: 20px;
+    color: aliceblue;
 }
